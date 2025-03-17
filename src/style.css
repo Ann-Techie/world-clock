@@ -1,7 +1,67 @@
-h1 {
-  text-align: center;
+body {
+  background: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/160/464/original/84403689-assorted-clocks-on-blue-abstract-background.jpg?1742188836");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
 }
 
+.container {
+  background: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+  max-width: 600px;
+  margin: 45px auto;
+  padding: 20px 30px;
+  border-radius: 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+a {
+  color: navy;
+}
+
+select {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 4px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 36px;
+}
+h2 {
+  margin: 0 0 5px;
+  font-size: 28px;
+}
+date {
+  opacity: 0.8;
+}
+
+.city {
+  display: flex;
+  margin: 20px 0;
+  padding: 20px 0;
+  justify-content: space-between;
+  border-bottom: 1px dashed rgba(0, 0, 0, 0.4);
+}
+
+.city:last-child {
+  border: none;
+}
+
+.time {
+  font-size: 48px;
+}
+
+.time small {
+  font-size: 24px;
+  vertical-align: middle;
+  line-height: 36px;
+}
 footer {
   text-align: center;
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.9);
 }
