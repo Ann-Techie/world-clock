@@ -17,28 +17,30 @@
   <body>
     <div class="container">
       <h1>World Clock</h1>
-      <select>
+      <select id="city">
         <option value="">Select a city...</option>
-        <option value="">Nairobi</option>
-        <option value="">Kampala</option>
-        <option value="">Addis Ababa</option>
+        <option value="Africa/Kampala">Uganda</option>
+        <option value="Africa/Juba">South Sudan</option>
+        <option value="Africa/Cairo">Egypt</option>
       </select>
 
-      <div class="city" id="nairobi">
-        <div>
-          <h2>Nairobi</h2>
+      <div id="cities">
+        <div class="city" id="nairobi">
+          <div>
+            <h2>Nairobi</h2>
 
-          <div class="date">March 16th 2025</div>
+            <div class="date"></div>
+          </div>
+          <div class="time"><small></small></div>
         </div>
-        <div class="time">1:10:54<small>AM</small></div>
-      </div>
-      <div class="city" id="tanzania">
-        <div>
-          <h2>Tanzania</h2>
+        <div class="city" id="djibouti">
+          <div>
+            <h2>Djibouti</h2>
 
-          <div class="date">March 16th 2025</div>
+            <div class="date">March 16th 2025</div>
+          </div>
+          <div class="time">1:10:54<small>AM</small></div>
         </div>
-        <div class="time">1:10:54<small>AM</small></div>
       </div>
     </div>
     <footer>
