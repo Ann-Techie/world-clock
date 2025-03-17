@@ -40,7 +40,9 @@ function updateTimeZone(event) {
           <div class="time">${cityTimeZone.format(
             "h:mm:ss"
           )} <small>${cityTimeZone.format("A")}</small></div>
-        </div>`;
+        </div>
+        <a href="index.html">All Cities</a>
+        `;
 }
 
 updateTime();
