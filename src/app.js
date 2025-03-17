@@ -46,7 +46,5 @@ function updateTimeZone(event) {
 updateTime();
 setInterval(updateTime, 1);
 
-updateTimeZone(setInterval, 1);
-
 let citySelect = document.querySelector("#city");
 citySelect.addEventListener("change", updateTimeZone);
