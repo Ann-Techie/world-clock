@@ -50,11 +50,10 @@ function updateTimeZone(event) {
     `;
   }
 
-  updateSelectedCity(); // Update immediately
+  updateSelectedCity();
   intervalId = setInterval(updateSelectedCity, 1000); // Update every second
 }
 
-// Start updating fixed cities (Nairobi & Djibouti) every second
 updateTime();
 setInterval(updateTime, 1000);
 
